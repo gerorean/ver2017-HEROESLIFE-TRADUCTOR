@@ -1,0 +1,253 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {/*ajuste general*/
+	margin: 0px auto;
+	max-width: 1000px;
+	padding: 0px;
+}
+ 
+body {/*ajuste del fondo*/
+	list-style-type: none;
+	display: block;
+	top: 0px;
+	/*background:#FF0;*/
+}
+
+header nav {/*ajuste barra de navegación superior*/
+	width: 100%;
+	max-width: 1000px;
+	/*background:#f00;/*028afc;/*color de fondo*/
+	position: fixed;/*separación hacia arriba*/
+	top: 0px;
+	width: 100%;
+	z-index: 10000001;
+	position: fixed;
+	border: none;
+	margin: 0;
+	_position: absolute;
+	display: block;
+	-moz-border-radius:0px 0px 5px 5px;
+	border-radius:0px 0px 5px 5px;
+	/*-moz-box-shadow: 0px 2px 3px #FFF;/*#cecece;*/
+	/*-webkit-box-shadow: 0px 2px 3px #FFF;/*#cecece;*/
+	/*box-shadow: 0 2px 3px #FFF;/*4px *#8b8b8b;*/
+	/* gradiente */
+	/*background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #383838), color-stop(0.5, #1E1E1E), color-stop(0.51, #303030), color-stop(1, #232323));
+	background-image: -moz-linear-gradient(center bottom, #383838 0%, #1E1E1E 50%, #303030 51%, #232323 100%);*/
+	background-color: #fff;
+}
+
+/*ajuste 2da barra de navegación*/
+header nav ul {
+	width: 100%;
+	overflow: hidden;
+	list-style: none;
+	-webkit-box-shadow: 0px 16px 10px -10px rgba(0,0,0,0.6);
+	-moz-box-shadow: 0px 16px 10px -10px rgba(0,0,0,0.6);
+	box-shadow: 0px 16px 10px -10px rgba(0,0,0,0.6);
+}
+
+header nav ul li a {/*ajuste pestañas 2da barra de navegación*/
+	/*width: 33.3%;/*ancho de las pestañas*/
+	color: #777;/*color de la letra*/
+	font-family: "Lucida Sans Unicode",Verdana,Arial,sans-serif;
+	font-size: 14px;
+	padding-top: 5px;/*borde de cada pestaña*/
+	padding-bottom: 5px;/*borde de cada pestaña*/
+	padding-left: 10px;
+	padding-right: 10px;
+	display: block;
+	text-decoration: none;
+	font-weight:bold;
+	text-align:center;
+	float:left;	
+	/*font-size:inherit;*/
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	float: right;
+	/*border-right: 1px solid rgba(255,255,255,0.3);/*opacidad*/
+	background-color:transparent;/* #028afc;*/
+}
+
+.distinto{
+	color:#fff;
+	font-family: "Lucida Sans Unicode",Verdana,Arial,sans-serif;
+	/*font-size:large;*/
+	font-weight:bold;/*normal;*/
+	/*sombra*/
+	top:0px;/*Desde aqui comienza codigo para la sombra*/
+	bottom:0px;
+	/*left:0;
+	right:50%;*/
+	position:relative;
+	-webkit-box-shadow: inset 0px 0px 5px rgba(0,0,0,0.8);
+	-moz-box-shadow: inset 0px 0px 5px rgba(0,0,0,0.8);
+	box-shadow: inset 0px 0px 5px rgba(0,0,0,0.8);
+	/*border: 1px solid #fff;*/
+	-moz-border-radius:15px 15px 15px 15px;
+	border-radius:15px 15px 15px 15px;
+	border: 1px solid rgba(155,155,255,0.1);/*opacidad*/
+	background:#55d;/*color al activar la pagina*/
+	/*right:0;*/
+} 
+
+header nav ul li a:hover {
+	color: #fff;
+	-moz-border-radius:15px 15px 15px 15px;
+	border-radius:15px 15px 15px 15px;
+	/*border: 1px solid rgba(255,255,255,0.4);*/
+	background:#aaa;*/
+}
+
+.saludo {/*ajuste encabezados de noticias*/
+	height: auto;
+	/*font-family: "Lucida Sans Unicode",Verdana,Arial,sans-serif;*/
+	/*font-size: inherit;*/
+	/*overflow:hidden;*/
+	text-align: center;
+	color: #000;
+	/*font-weight: bold;/*
+	position: static;
+	width: auto;
+	overflow: hidden;
+	left: auto;
+	top: auto;*/
+}
+
+.cont1 {
+	overflow: hidden;
+	padding: 0px;/*borde de cada pestaña*/
+	background-color:#fff;
+	display: block;
+	float: none;
+	height:auto;
+	/*width: 90%;*/
+}
+
+.cont2 {
+	overflow: hidden;
+	width: 261px;
+	height:40px;
+	background-color: #fff;
+	display: block;
+	float: none;
+}
+
+.traductor {/*ajuste encabezados de noticias*/
+	height: 25px;
+	/*overflow: hidden;*/
+	padding-top: 8px;
+	background-color: #fff;
+	display:inline-block;
+	float: left;
+	width: 147px;
+}
+
+.logogt {/*ajuste encabezados de noticias*/
+	/*height: 40px;
+	/*overflow: hidden;*/
+	display:inline-block;
+	float: left;
+	width: 114px;
+	background-color: #fff;
+}
+
+/*.traductor ul li a {
+	/*width: 50%;/*ancho de las pestañas*/
+	/*color: #fff;/*color de la letra*/
+	/*padding-top: 5px;/*borde de cada pestaña*/
+	/*padding-bottom: 5px;/*borde de cada pestaña*/
+	/*display: block;
+	text-decoration: none;
+	/*font-weight:bold;*/
+	/*text-align:center;
+	background-color: #777;
+}*/
+
+.titulo {/*ajuste encabezados de noticias*/
+	color:#007;
+	font-family:"Lucida Sans Unicode",Verdana, Arial,sans-serif;
+	/*font-size:16px;*/
+	height:auto;
+	text-align: center;
+	overflow: hidden;
+	padding: 0px;
+	background-color: #fff;
+	position: static;
+	width: 100%;
+	top: auto;
+	display: block;
+	font-size:25px;
+	font-weight:bold;
+}
+
+.goog-logo-link {
+	background-color:#0FF;
+   /*display:none;*/
+}
+
+.goog-te-banner-frame skiptranslate {
+display:none;
+}
+
+/*.goog-te-banner {
+display:none;
+}*/
+
+/*ocultar barra superior del traductor*/
+.skiptranslate {
+display:none;
+}
+
+.goog-te-gadget {/*ajuste boton traductor*/
+display:inline;
+}
+
+hr {/*ajuste 1er barra de un boton*/
+	border: 1px solid #777;
+	margin-bottom: 2.1px;
+}
+
+.traductordis {/*ajuste encabezados de noticias*/
+	display:none;
+}
+
+img{
+	max-width:100%;
+	height:auto;
+}
+
+.ventana {
+	width:100%;
+	/*height:100%;*/
+}
+
+.noticia {/*ajuste encabezados de noticias*/
+	height: auto;
+	overflow: hidden;
+	padding: 10px;
+	display: block;
+	background:#FFF;
+}
+
+.marco {/*ajuste marco para contenidos*/
+	height: auto;
+	overflow: hidden;
+	padding: 10px;
+	display: block;
+	background:#FFF;
+}
+
+/*.main {
+	margin-top: 0px;
+	padding: 16px;
+	height: 1000px;
+}*/
+
+/*section {
+	margin-top: 0px;
+	padding: 16px;
+	height: 1000px;
+}*/
